@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 556,
+    "id" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17/canvas/",
+    "label" : {
+      "none" : [ "Hafs_48_17" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 18,
+              "height" : 23
+            }, {
+              "width" : 35,
+              "height" : 46
+            }, {
+              "width" : 70,
+              "height" : 91
+            }, {
+              "width" : 139,
+              "height" : 182
+            }, {
+              "width" : 278,
+              "height" : 363
+            }, {
+              "width" : 556,
+              "height" : 725
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 556,
+            "@id" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 725
+          } ],
+          "format" : "image/jpeg",
+          "width" : 556,
+          "id" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 725
+        },
+        "target" : "https://mkimechentel.github.io/VariantReadings/images/Hafs_48_17/canvas/"
+      } ]
+    } ],
+    "height" : 725
+  }, {
     "width" : 615,
     "id" : "https://mkimechentel.github.io/VariantReadings/images/Warsh_21_4/canvas/",
     "label" : {
