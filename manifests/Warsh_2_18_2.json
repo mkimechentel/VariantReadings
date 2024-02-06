@@ -1,0 +1,52 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://mkimechentel.github.io/VariantReadings/manifests/Warsh_2_18_2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Ilyes Mechentel's manifest",
+  "metadata" : [ {
+    "label" : "Date of publication",
+    "value" : "Third century"
+  } ],
+  "description" : [ {
+    "@value" : "Quranic Text, 2:18, Warsh reading, 236r",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Chester Beatty Library",
+  "sequences" : [ {
+    "@id" : "http://05508624-a0b4-48cd-b736-9046c1234598",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://1602730b-02af-4269-b40f-c2e3475d215c",
+      "@type" : "sc:Canvas",
+      "label" : "Warsh_2_18",
+      "height" : 1350,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7b27c681-7919-403f-9518-e976bb2f70c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://mkimechentel.github.io/VariantReadings/images/Warsh_2_85/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://mkimechentel.github.io/VariantReadings/images/Warsh_2_85",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1350,
+          "width" : 1024
+        },
+        "on" : "http://1602730b-02af-4269-b40f-c2e3475d215c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
