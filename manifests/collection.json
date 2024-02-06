@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://mkimechentel.github.io/VariantReadings/manifests/Warsh_2_18.json",
     "label" : "Ilyes Mechentel's manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mkimechentel.github.io/VariantReadings/manifests/Warsh_2_18_2.json",
+    "label" : "Ilyes Mechentel's manifest"
   } ]
 }
