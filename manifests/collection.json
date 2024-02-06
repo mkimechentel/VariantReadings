@@ -1,0 +1,13 @@
+{
+  "id" : "https://mkimechentel.github.io/VariantReadings/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in mkimechentel/VariantReadings project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://mkimechentel.github.io/VariantReadings/manifests/Warsh_2_18.json",
+    "label" : "Ilyes Mechentel's manifest"
+  } ]
+}
